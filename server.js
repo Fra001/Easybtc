@@ -24,3 +24,5 @@ app.get("/api", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ Proxy server listening on port ${PORT}`);
 });
+
+http://localhost:3001/api/exchange-rate
